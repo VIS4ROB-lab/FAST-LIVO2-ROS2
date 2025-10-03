@@ -52,6 +52,7 @@ def generate_launch_description():
             parameters=[
                 params_file,
                 cam_params_file,
+                {"use_sim_time": True},
             ],
             output="screen"
         ),
